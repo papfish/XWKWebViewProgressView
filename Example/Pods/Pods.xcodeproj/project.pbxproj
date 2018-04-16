@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20A10B84017A24815FD39695B90EEC3B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E616107A8600EADA79236A170D9DE2 /* ReplaceMe.m */; };
+		019B65B6136F5B488F009BF26C17B8FE /* XWKWebViewProgressView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB4A0695481F096086A79F25FC496F70 /* XWKWebViewProgressView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26640D0E6442B4D90B8D34DF21439167 /* Pods-XWKWebViewProgressView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B30D450B4B9BAEA88C5BE13038DB1E00 /* Pods-XWKWebViewProgressView_Example-dummy.m */; };
+		59885637B58EC63F133E7ED2A9C9F4D4 /* XWKWebViewProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 061DAA8168B0AE1EFDDCF8E2F4CD5600 /* XWKWebViewProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B6F5D222984C4B1AD608660BA4F0B32 /* XWKWebViewProgressView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C884CB4C776D621E59F869DF648560 /* XWKWebViewProgressView-dummy.m */; };
 		6B73C635CB7B6772A5DAB6AE48583BDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		78808C52E51596B04858E202D8A205D6 /* Pods-XWKWebViewProgressView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D55746A4E800B921815A3154901762F /* Pods-XWKWebViewProgressView_Tests-dummy.m */; };
 		83D839C00353C1EBBCBB09BB3F12067F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		8605BA3A1EA27341F067FF2761E1393D /* Pods-XWKWebViewProgressView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84980A258EC7ABDD6B2C46E701EB9020 /* Pods-XWKWebViewProgressView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8BFFF202CD08CCB2B6380136AAF7FB6E /* XWKWebViewProgressView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C7F03D409CD8D14CE84136CCD76286 /* XWKWebViewProgressView-dummy.m */; };
 		912D8F459E57E6B476F2C4C8766AA5BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B0A75F93E4EFAA411491E9DEAA3A01D2 /* XWKWebViewProgressView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14959BE9DC121CE726E96EB68FD205E6 /* XWKWebViewProgressView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4CE63A627C7FA02E310A347B0FE12E9 /* Pods-XWKWebViewProgressView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42FE30E20742E11B685242499CD04CB3 /* Pods-XWKWebViewProgressView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C520597AF4FD0B45744495D005DDC526 /* XWKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A084FBC86609DD7727C255C7ED9F50 /* XWKWebViewProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,17 +31,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		061DAA8168B0AE1EFDDCF8E2F4CD5600 /* XWKWebViewProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XWKWebViewProgressView.h; path = XWKWebViewProgressView/Classes/XWKWebViewProgressView.h; sourceTree = "<group>"; };
 		0D55746A4E800B921815A3154901762F /* Pods-XWKWebViewProgressView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XWKWebViewProgressView_Tests-dummy.m"; sourceTree = "<group>"; };
-		111CCAA76F0CE363DB6D04003E32F694 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0FA2B52077C3761F90F1E3BEFCF98D81 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		13C1B6FACEB3771D21AB5CC05EC8B996 /* Pods-XWKWebViewProgressView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XWKWebViewProgressView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		14959BE9DC121CE726E96EB68FD205E6 /* XWKWebViewProgressView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XWKWebViewProgressView-umbrella.h"; sourceTree = "<group>"; };
 		14CB8FDF3FA1296DFADCC4E3017B3DD2 /* Pods-XWKWebViewProgressView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XWKWebViewProgressView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1F43BC7CA4321A128C7D69C09632B5EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26438D55C28B8F33B897614C6F7BCF2B /* Pods-XWKWebViewProgressView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XWKWebViewProgressView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		35756F58B6E90E58CE7427F128C56915 /* Pods-XWKWebViewProgressView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XWKWebViewProgressView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		37DE33E6F49D2AF758B5464DA7E408B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3EA5D794DF6C320B9D4AEA04FCCCF98E /* XWKWebViewProgressView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XWKWebViewProgressView.modulemap; sourceTree = "<group>"; };
-		4242CB07D0D0626B7B5A4AD6D5767958 /* XWKWebViewProgressView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XWKWebViewProgressView.xcconfig; sourceTree = "<group>"; };
 		42FE30E20742E11B685242499CD04CB3 /* Pods-XWKWebViewProgressView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XWKWebViewProgressView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		53CBD42B5F9A390A23BEA650756B346F /* Pods-XWKWebViewProgressView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XWKWebViewProgressView_Example-resources.sh"; sourceTree = "<group>"; };
 		56DC886A52B192DCA2FD603111B5F84F /* XWKWebViewProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XWKWebViewProgressView.framework; path = XWKWebViewProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,21 +47,24 @@
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		67638CA4FF60C414B912F88FA9C294D5 /* Pods-XWKWebViewProgressView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XWKWebViewProgressView_Example.modulemap"; sourceTree = "<group>"; };
 		7347DCFDECAFC96D829E8D4D658ED698 /* Pods-XWKWebViewProgressView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XWKWebViewProgressView_Tests-resources.sh"; sourceTree = "<group>"; };
-		78C7F03D409CD8D14CE84136CCD76286 /* XWKWebViewProgressView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XWKWebViewProgressView-dummy.m"; sourceTree = "<group>"; };
-		7B2B0508CE5C74D25DEBA73F529979C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F2265F2C4B45DF8BBC4AF81CEFA6D3A /* XWKWebViewProgressView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XWKWebViewProgressView.xcconfig; sourceTree = "<group>"; };
 		84980A258EC7ABDD6B2C46E701EB9020 /* Pods-XWKWebViewProgressView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XWKWebViewProgressView_Example-umbrella.h"; sourceTree = "<group>"; };
+		88D02F4CF30FA92FEC18FCF771F4CB2D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95A084FBC86609DD7727C255C7ED9F50 /* XWKWebViewProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XWKWebViewProgressView.m; path = XWKWebViewProgressView/Classes/XWKWebViewProgressView.m; sourceTree = "<group>"; };
+		97DACEA219BD8FCCF3ABD8BD84AEA018 /* XWKWebViewProgressView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XWKWebViewProgressView.modulemap; sourceTree = "<group>"; };
 		9A2F1F35821B2E9426A0FF9E9CF3A5F5 /* Pods-XWKWebViewProgressView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XWKWebViewProgressView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9F9AE332C08AE0BDBE89DC9A1ABD6D1A /* XWKWebViewProgressView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XWKWebViewProgressView-prefix.pch"; sourceTree = "<group>"; };
 		A2B7CB13187C7B4DAB1CC41F25727A82 /* Pods_XWKWebViewProgressView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XWKWebViewProgressView_Example.framework; path = "Pods-XWKWebViewProgressView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B30D450B4B9BAEA88C5BE13038DB1E00 /* Pods-XWKWebViewProgressView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XWKWebViewProgressView_Example-dummy.m"; sourceTree = "<group>"; };
+		B8E9BE12B9CBB0CFF3E0B2C72B09E478 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B9A002AFDBA7B592656332F04AE51C60 /* Pods-XWKWebViewProgressView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XWKWebViewProgressView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C4E616107A8600EADA79236A170D9DE2 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XWKWebViewProgressView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		C56B53FA18815DD4CFC2C05BDF6208CB /* XWKWebViewProgressView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XWKWebViewProgressView-prefix.pch"; sourceTree = "<group>"; };
+		CB4A0695481F096086A79F25FC496F70 /* XWKWebViewProgressView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XWKWebViewProgressView-umbrella.h"; sourceTree = "<group>"; };
 		CB5CAD3761E9003A86B202987BB4F342 /* Pods-XWKWebViewProgressView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XWKWebViewProgressView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		D0D656704E14D9E6FE590D96A887D9E3 /* Pods_XWKWebViewProgressView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XWKWebViewProgressView_Tests.framework; path = "Pods-XWKWebViewProgressView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3CC57170C9E0C66DACC41CF5352FE8F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D1C884CB4C776D621E59F869DF648560 /* XWKWebViewProgressView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XWKWebViewProgressView-dummy.m"; sourceTree = "<group>"; };
 		DFD442A2701FADCF3216E488DE4C7669 /* Pods-XWKWebViewProgressView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XWKWebViewProgressView_Tests.modulemap"; sourceTree = "<group>"; };
-		EDAB31598F8C27CCA0B10B7E9D4274A3 /* XWKWebViewProgressView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XWKWebViewProgressView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EAACC1B5ABCC222DE23D2568AC2A886E /* XWKWebViewProgressView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XWKWebViewProgressView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F551B900ABFCF569239E271CC2A218D5 /* Pods-XWKWebViewProgressView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XWKWebViewProgressView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F6A55170691BBB15075546754AA4FAEA /* Pods-XWKWebViewProgressView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XWKWebViewProgressView_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,15 +97,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01493B0644856C68FF7291CCEBF8340D /* XWKWebViewProgressView */ = {
+		08329D0A823105FB4D7EDE931B522044 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C4E616107A8600EADA79236A170D9DE2 /* ReplaceMe.m */,
-				3BCB283AFB04625142F975B8C29DC111 /* Pod */,
-				B4406E5BB28010ED36D5957E1C9BCC46 /* Support Files */,
+				61360262F54384F65AECE592C40F0E5D /* XWKWebViewProgressView */,
 			);
-			name = XWKWebViewProgressView;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		0F4899266E16384750799CFB0FCEC304 /* Pods-XWKWebViewProgressView_Example */ = {
@@ -124,24 +123,6 @@
 			path = "Target Support Files/Pods-XWKWebViewProgressView_Example";
 			sourceTree = "<group>";
 		};
-		1899F35B25F00FB51877F94D32B75D6F /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				01493B0644856C68FF7291CCEBF8340D /* XWKWebViewProgressView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		3BCB283AFB04625142F975B8C29DC111 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				D3CC57170C9E0C66DACC41CF5352FE8F /* LICENSE */,
-				111CCAA76F0CE363DB6D04003E32F694 /* README.md */,
-				EDAB31598F8C27CCA0B10B7E9D4274A3 /* XWKWebViewProgressView.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		57C6E72750F3A888F0843587FF63086F /* Pods-XWKWebViewProgressView_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,29 +141,37 @@
 			path = "Target Support Files/Pods-XWKWebViewProgressView_Tests";
 			sourceTree = "<group>";
 		};
+		61360262F54384F65AECE592C40F0E5D /* XWKWebViewProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				061DAA8168B0AE1EFDDCF8E2F4CD5600 /* XWKWebViewProgressView.h */,
+				95A084FBC86609DD7727C255C7ED9F50 /* XWKWebViewProgressView.m */,
+				A71A8F6F08E8D9408C4623EF6657730B /* Pod */,
+				D4B1C4EB801593B2B0ECEF4F2DB095CD /* Support Files */,
+			);
+			name = XWKWebViewProgressView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				1899F35B25F00FB51877F94D32B75D6F /* Development Pods */,
+				08329D0A823105FB4D7EDE931B522044 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				E9FC2B935DB149049320426906CCA923 /* Products */,
 				B6BF5D13C636CBDB3954C19FF9BD15C8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		B4406E5BB28010ED36D5957E1C9BCC46 /* Support Files */ = {
+		A71A8F6F08E8D9408C4623EF6657730B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				7B2B0508CE5C74D25DEBA73F529979C2 /* Info.plist */,
-				3EA5D794DF6C320B9D4AEA04FCCCF98E /* XWKWebViewProgressView.modulemap */,
-				4242CB07D0D0626B7B5A4AD6D5767958 /* XWKWebViewProgressView.xcconfig */,
-				78C7F03D409CD8D14CE84136CCD76286 /* XWKWebViewProgressView-dummy.m */,
-				C56B53FA18815DD4CFC2C05BDF6208CB /* XWKWebViewProgressView-prefix.pch */,
-				14959BE9DC121CE726E96EB68FD205E6 /* XWKWebViewProgressView-umbrella.h */,
+				0FA2B52077C3761F90F1E3BEFCF98D81 /* LICENSE */,
+				B8E9BE12B9CBB0CFF3E0B2C72B09E478 /* README.md */,
+				EAACC1B5ABCC222DE23D2568AC2A886E /* XWKWebViewProgressView.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XWKWebViewProgressView";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		B6BF5D13C636CBDB3954C19FF9BD15C8 /* Targets Support Files */ = {
@@ -210,6 +199,20 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		D4B1C4EB801593B2B0ECEF4F2DB095CD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				88D02F4CF30FA92FEC18FCF771F4CB2D /* Info.plist */,
+				97DACEA219BD8FCCF3ABD8BD84AEA018 /* XWKWebViewProgressView.modulemap */,
+				7F2265F2C4B45DF8BBC4AF81CEFA6D3A /* XWKWebViewProgressView.xcconfig */,
+				D1C884CB4C776D621E59F869DF648560 /* XWKWebViewProgressView-dummy.m */,
+				9F9AE332C08AE0BDBE89DC9A1ABD6D1A /* XWKWebViewProgressView-prefix.pch */,
+				CB4A0695481F096086A79F25FC496F70 /* XWKWebViewProgressView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XWKWebViewProgressView";
+			sourceTree = "<group>";
+		};
 		E9FC2B935DB149049320426906CCA923 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,6 +226,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		A62052A5947145099C1BEA2C7CC135F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019B65B6136F5B488F009BF26C17B8FE /* XWKWebViewProgressView-umbrella.h in Headers */,
+				59885637B58EC63F133E7ED2A9C9F4D4 /* XWKWebViewProgressView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B16DC984DFAEBA42904D24074A436102 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -236,14 +248,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4CE63A627C7FA02E310A347B0FE12E9 /* Pods-XWKWebViewProgressView_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF54FAE847DD6E0B6F2A04B8DDCDE054 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B0A75F93E4EFAA411491E9DEAA3A01D2 /* XWKWebViewProgressView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +276,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 609EAC2792C02600747C860BFCFB79F9 /* Build configuration list for PBXNativeTarget "XWKWebViewProgressView" */;
 			buildPhases = (
-				22AEF0A2DB4B4C1A8C8B3405232EF1A1 /* Sources */,
+				1880311213FB7C8BB624B5C03EE20E80 /* Sources */,
 				4E5A11797E1DCC4AEF01E4B031E9E5DB /* Frameworks */,
-				DF54FAE847DD6E0B6F2A04B8DDCDE054 /* Headers */,
+				A62052A5947145099C1BEA2C7CC135F2 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -339,12 +343,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22AEF0A2DB4B4C1A8C8B3405232EF1A1 /* Sources */ = {
+		1880311213FB7C8BB624B5C03EE20E80 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20A10B84017A24815FD39695B90EEC3B /* ReplaceMe.m in Sources */,
-				8BFFF202CD08CCB2B6380136AAF7FB6E /* XWKWebViewProgressView-dummy.m in Sources */,
+				6B6F5D222984C4B1AD608660BA4F0B32 /* XWKWebViewProgressView-dummy.m in Sources */,
+				C520597AF4FD0B45744495D005DDC526 /* XWKWebViewProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,7 +407,7 @@
 		};
 		2D8B86B3518CFDA439A72089DA752088 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4242CB07D0D0626B7B5A4AD6D5767958 /* XWKWebViewProgressView.xcconfig */;
+			baseConfigurationReference = 7F2265F2C4B45DF8BBC4AF81CEFA6D3A /* XWKWebViewProgressView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -618,7 +622,7 @@
 		};
 		887AC5996E519D95E6974D316AE80D9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4242CB07D0D0626B7B5A4AD6D5767958 /* XWKWebViewProgressView.xcconfig */;
+			baseConfigurationReference = 7F2265F2C4B45DF8BBC4AF81CEFA6D3A /* XWKWebViewProgressView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

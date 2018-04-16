@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "XWKWebViewProgressView.h"
 
 FOUNDATION_EXPORT double XWKWebViewProgressViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char XWKWebViewProgressViewVersionString[];
