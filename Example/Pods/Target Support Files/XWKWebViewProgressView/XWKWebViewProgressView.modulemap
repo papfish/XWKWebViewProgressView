@@ -1,0 +1,6 @@
+framework module XWKWebViewProgressView {
+  umbrella header "XWKWebViewProgressView-umbrella.h"
+
+  export *
+  module * { export * }
+}

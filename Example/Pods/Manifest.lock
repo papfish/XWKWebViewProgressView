@@ -1,0 +1,16 @@
+PODS:
+  - XWKWebViewProgressView (0.1.0)
+
+DEPENDENCIES:
+  - XWKWebViewProgressView (from `../`)
+
+EXTERNAL SOURCES:
+  XWKWebViewProgressView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  XWKWebViewProgressView: cb3f39d3832b8d468d6829a2768f447f4de7e913
+
+PODFILE CHECKSUM: f817fefee4864c1f305b5599cb5cb6fae1a00efb
+
+COCOAPODS: 1.4.0
