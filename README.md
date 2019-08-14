@@ -24,7 +24,7 @@ pod 'XWKWebViewProgressView'
 ---
 
 ```
-WKWebViewProgressView *progressView = [[WKWebViewProgressView alloc] initWithFrame:CGRectMake(0, 64, 375, 2)];
+XWKWebViewProgressView *progressView = [[XWKWebViewProgressView alloc] initWithFrame:CGRectMake(0, 64, 375, 2)];
 [self.view addSubview:progressView];
 [progressView setTrackTintColor:[UIColor lightGrayColor]];
 [progressView setProgressTintColor:[UIColor redColor]];

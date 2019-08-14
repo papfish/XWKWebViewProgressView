@@ -16,12 +16,6 @@
 
 @implementation XWKWebViewProgressView
 
-- (instancetype)init
-{
-    @throw [NSException exceptionWithName:@"XWKWebViewProgressView init error" reason:@"XWKWebViewProgressView must be initialized with frame. Use 'initWithFrame:' instead." userInfo:nil];
-    return self = [super init];
-}
-
 - (instancetype)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
@@ -36,7 +30,6 @@
     self.progressViewStyle = UIProgressViewStyleDefault;
     self.trackTintColor = [UIColor lightGrayColor];
     self.progressTintColor = [UIColor colorWithRed:22.f/255.f green:126.f/255.f blue:251.f/255.f alpha:1.0];
-    [self setProgress:0.1 animated:YES];   // default
 }
 
 - (void)setWebView:(WKWebView *)webView
