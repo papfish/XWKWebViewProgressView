@@ -1,5 +1,5 @@
 PODS:
-  - XWKWebViewProgressView (0.2.0)
+  - XWKWebViewProgressView (0.2.1)
 
 DEPENDENCIES:
   - XWKWebViewProgressView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XWKWebViewProgressView: 7caf2853576e27ce84110f16d6d92cc6c2cdd54b
+  XWKWebViewProgressView: 8afc9a0cc4f2d714a23b6f172be431ff84aa4549
 
 PODFILE CHECKSUM: f817fefee4864c1f305b5599cb5cb6fae1a00efb
 

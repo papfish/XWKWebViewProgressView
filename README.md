@@ -1,6 +1,6 @@
 # XWKWebViewProgressView
 
-[![CI Status](http://img.shields.io/travis/xuliang2015/XWKWebViewProgressView.svg?style=flat)](https://travis-ci.org/xuliang2015/XWKWebViewProgressView)
+[![CI Status](http://img.shields.io/travis/papfish/XWKWebViewProgressView.svg?style=flat)](https://travis-ci.org/papfish/XWKWebViewProgressView)
 [![Version](https://img.shields.io/cocoapods/v/XWKWebViewProgressView.svg?style=flat)](http://cocoapods.org/pods/XWKWebViewProgressView)
 [![License](https://img.shields.io/cocoapods/l/XWKWebViewProgressView.svg?style=flat)](http://cocoapods.org/pods/XWKWebViewProgressView)
 [![Platform](https://img.shields.io/cocoapods/p/XWKWebViewProgressView.svg?style=flat)](http://cocoapods.org/pods/XWKWebViewProgressView)
@@ -33,7 +33,7 @@ XWKWebViewProgressView *progressView = [[XWKWebViewProgressView alloc] initWithF
 
 ## Author
 
-xuliang2015, liang.xv@qq.com
+liang.xv@qq.com
 
 ## License
 
